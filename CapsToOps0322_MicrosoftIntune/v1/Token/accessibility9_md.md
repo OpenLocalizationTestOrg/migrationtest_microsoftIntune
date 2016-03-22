@@ -1,0 +1,29 @@
+---
+translation.priority.ht: 
+  - ar-sa
+  - cs-cz
+  - da-dk
+  - de-de
+  - el-gr
+  - es-es
+  - fi-fi
+  - fr-fr
+  - he-il
+  - hu-hu
+  - it-it
+  - ja-jp
+  - ko-kr
+  - nb-no
+  - nl-nl
+  - pl-pl
+  - pt-br
+  - pt-pt
+  - ro-ro
+  - ru-ru
+  - sv-se
+  - tr-tr
+  - zh-cn
+  - zh-hk
+  - zh-tw
+---
+A wide variety of assistive technology products are available to make computers easier to use for people with disabilities. You can search a catalog of assistive technology products that run on Windows at the [Microsoft Accessibility website](http://go.microsoft.com/fwlink/?LinkId=8431). If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.

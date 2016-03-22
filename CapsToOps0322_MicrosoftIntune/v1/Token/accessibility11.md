@@ -1,0 +1,29 @@
+---
+translation.priority.ht: 
+  - ar-sa
+  - cs-cz
+  - da-dk
+  - de-de
+  - el-gr
+  - es-es
+  - fi-fi
+  - fr-fr
+  - he-il
+  - hu-hu
+  - it-it
+  - ja-jp
+  - ko-kr
+  - nb-no
+  - nl-nl
+  - pl-pl
+  - pt-br
+  - pt-pt
+  - ro-ro
+  - ru-ru
+  - sv-se
+  - tr-tr
+  - zh-cn
+  - zh-hk
+  - zh-tw
+---
+<Token xmlns:xlink="http://www.w3.org/1999/xlink"><embeddedLabel xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Learning Ally (formerly Recording for the Blind &amp; Dyslexic, Inc.) </embeddedLabel></Token>
