@@ -41,7 +41,8 @@ translation.priority.ht:
 
 -   [Can I remove a computer or device from the company portal?](../Topic/Company-Portal-Frequently-Asked-Questions.md#BKMK_RemoveDevice)
 
--   [Why don’t I see all of my devices in the company portal?](../Topic/Company-Portal-Frequently-Asked-Questions.md#BKMK_CantSeeDevices)
+-   [I get a "Compliance State is Unknown" message](../Topic/Company-Portal-Frequently-Asked-Questions.md#BKMK_CantSeeDevices)
+- [Why don’t I see all of my devices in the company portal?](../Topic/Company-Portal-Frequently-Asked-Questions.md#BKMK_compliance_state_unknown)
 
 -   [I need to install a new version of the company portal](../Topic/Company-Portal-Frequently-Asked-Questions.md#BKMK_InstallNewVersion)
 
@@ -83,6 +84,9 @@ For more information, see [What Happens if You Remove or Reset a Device Using th
 
 ### <a name="BKMK_CantSeeDevices"></a>Why don’t I see all of my devices in the company portal?
 In order to see a device, it must be added to the company portal. Browse to the company portal as directed by your administrator and follow the steps for your device. You also won’t see devices that are owned and managed by your company.
+
+### <a name="BKMK_compliance_state_unknown"></a>I get a "Compliance State is Unknown" message
+Intune is trying to evaluate whether your device is in compliance with policies that your IT administrator has set. If this takes more than a few minutes, try tapping **Check Compliance**. If that doesn't work after a few more minutes, contact your IT administrator for help.
 
 ### <a name="BKMK_InstallNewVersion"></a>I need to install a new version of the company portal
 If your version of the company portal is no longer supported, or there is a newer version of the company portal available, use the following procedures to update your device.
@@ -143,4 +147,5 @@ If you encounter errors while enrolling your iPhone, follow the instructions bel
 **Issue:** This message indicates that your IT administrator needs to configure the way the mobile devices in your company are managed.
 
 **Workaround:** Contact your IT administrator and tell them that you received the message **MdmAuthorityNotDefined** while trying to enroll your mobile device, and to see the solution at [Troubleshooting iOS Enrollment Errors with Microsoft Intune or System Center 2012 R2 Configuration Manager](http://go.microsoft.com/fwlink/?LinkID=327928).
+
 

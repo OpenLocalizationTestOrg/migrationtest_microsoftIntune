@@ -186,8 +186,20 @@ Using Apple Configurator you can factory reset iOS devices and prepares them for
 6.  **Export a profile to deploy to iOS devices**
     In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then select the device profile to deploy to mobile devices. Click **Export…** in the taskbar. Copy and save the **2.0 Profile URL**. You will upload it in Apple Configurator later to define the Intune profile used by iOS devices.
     
-    > [!NOTE]
-    > The enrollment profile URL is valid for two weeks from when it is exported. After two weeks, you must export a new enrollment profile .mobileconfig file to enroll iOS devices with Setup Assistant. 
+    To support Apple Configurator 2, the 2.0 Profile URL must be edited. Replace 
+```
+https://manage.microsoft.com/EnrollmentServer/Discovery.svc/iOS/ESProxy?id=
+```
+with 
+
+```
+https://appleconfigurator2.manage.microsoft.com/MDMServiceConfig?id=
+```
+
+   You will upload this profile URL to the Apple DEP service using Apple Configurator in the following procedure to define the Intune profile used by iOS devices.
+     
+   > [!NOTE]
+   > The enrollment profile URL is valid for two weeks from when it is exported. After two weeks, you must export a new enrollment profile .mobileconfig file to enroll iOS devices with Setup Assistant. 
 
 7.  **Prepare the device with Apple Configurator**
     iOS devices are connected to the Mac computer and enrolled for mobile device management.
