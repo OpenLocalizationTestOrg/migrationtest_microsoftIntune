@@ -1,0 +1,7 @@
+{
+  "locales": ["de-de"], 
+  "files": ["!/*.md", "**/**/*.md", "**/*.md", "**/TOC*.yml"],
+  "includeDependencies": true,
+  "autoPush": true,
+  "xliffVersion": "2.0"
+}
