@@ -15,7 +15,6 @@
             "el-gr",
             "es-es",
             "fi-fi",
-            "fr-ca",
             "fr-fr",
             "he-il",
             "hu-hu",
@@ -29,13 +28,14 @@
             "pt-pt",
             "ro-ro",
             "ru-ru",
-            "sk-sk",
-            "sl-si",
             "sv-se",
             "tr-tr",
             "zh-cn",
             "zh-hk",
-            "zh-tw"
+            "zh-tw",
+            "fr-ca",
+            "sk-sk",
+            "sl-si"
           ]
         }
       ]
