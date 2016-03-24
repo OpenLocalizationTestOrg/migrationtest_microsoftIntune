@@ -1,9 +1,6 @@
 {
-  "Locales": null,
-  "Files": null,
   "Filters": [
     {
-      "Metadata": null,
       "Files": [
         "**\\*.md"
       ],
@@ -41,8 +38,7 @@
             "zh-tw"
           ]
         }
-      ],
-      "IncludeDependencies": null
+      ]
     }
   ],
   "IncludeDependencies": true,
