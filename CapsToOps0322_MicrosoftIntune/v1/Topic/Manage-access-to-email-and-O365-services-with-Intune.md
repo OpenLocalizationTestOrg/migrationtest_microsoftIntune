@@ -30,9 +30,6 @@ translation.priority.ht:
 # Manage access to email and O365 services with Intune
 Use **conditional access** in [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] to help secure email and other services depending on conditions you specify.
 
-Watch this four minute video to see an overview of how you can use this feature in your organization.
-
-![](../Image/Intune_CondlAccess.PNG)
 
 A typical flow for conditional access might look as follows:
 
@@ -72,6 +69,11 @@ Office desktop applications can access Exchange Online and SharePoint Online on 
 
 -   Windows 7.0 or Windows 8.1
 
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
+
+
 You can control access to Skype for Business Online from Skype app available for iOS and Android devices.
 
 To implement conditional access, you configure two policy types in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]:
@@ -108,7 +110,7 @@ Before you start using conditional access, ensure that you have the correct requ
 
 -   [SharePoint Online](#Spo)
 
--   [Skype for Business Online](#sfb)
+-   [Skype for Business Online](#Sfb)
 
 -   [Conditional Access for PCs](#PC)
 
@@ -124,6 +126,9 @@ Conditional access to Exchange Online supports devices that run:
 -   iOS 7.1 and later
 
 -   Android 4.0 and later, Samsung Knox Standard 4.0 and later
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
 
 Additionally:
 
@@ -159,7 +164,11 @@ Conditional access to Exchange Online Dedicated supports devices that run:
 
 -   For tenants in the legacy Exchange Online Dedicated environment:
 
-    You must use the **on-premises Exchange connector** which connects [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] to Microsoft Exchange On-premises. This lets you manage devices through the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md)).
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
+
+You must use the **on-premises Exchange connector** which connects [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] to Microsoft Exchange On-premises. This lets you manage devices through the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md)).
 
 -   For tenants in the new Exchange Online Dedicated environment:
 
@@ -180,6 +189,10 @@ Conditional access to Exchange On-premises supports:
 -   Native email app on Android 4 or later
 
 -   Microsoft Outlook app on Android and iOS is not supported.
+
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
 
 Additionally:
 
@@ -213,6 +226,9 @@ Conditional access to SharePoint Online supports devices that run:
 -   iOS 7.1 and later
 
 -   Android 4.0 and later, Samsung Knox Standard 4.0 or later
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
 
 Additionally:
 
@@ -224,7 +240,7 @@ Additionally:
 
 -   A SharePoint Online subscription is required and users must be licensed for SharePoint Online.
 
-### <a name="Sfb"></a>Skype for Business Online
+## <a name="Sfb"></a>Skype for Business Online
 Conditional access to SharePoint Online supports devices that run:
 *   iOS 7.1 and later
 *   Android 4.0 and laer, Samsung Knox Standard 4.0 or later
@@ -234,6 +250,10 @@ Additionally
 *   All your end-users must be using the Skype for Business Online. If you have a deployment with both Skype for Business Online and Skype for Business on-premises, conditional access policy will not be applied to end-users who are in the on-premises deployment.
 
 ## <a name="PC"></a>Conditional Access for PCs
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
+
 You can setup conditional access for PCs that run Office desktop applications to access **Exchange Online** and **SharePoint Online** for PCs that meet the following requirements:
 
 -   The PC must be running Windows 7.0 or Windows 8.1.

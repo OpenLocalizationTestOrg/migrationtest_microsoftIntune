@@ -44,7 +44,7 @@ If you configure conditional access, before a user can connect to their email, t
 
 -   Register the device in Azure Active Directory (this happens automatically when the device is enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] (for Exchange Online only). Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory (does not apply to Windows and Windows Phone devices connecting to Exchange On-premises).
 
-    For a domain joined PC, you must set it to automatically register with Azure Active Directory.  **Conditional Access for PCs** section in the [Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md) topic lists the full set of requirements to enable conditional access for PCs.
+    For a domain joined PC, you must set it to automatically register with Azure Active Directory.  **Conditional Access for PCs** section in the [Manage access to email and O365 services](Manage-access-to-email-and-O365-services-with-Intune.md) topic lists the full set of requirements to enable conditional access for PCs.
 
 -   Be compliant with any [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] compliance policies deployed to that device
 
@@ -57,6 +57,9 @@ If a conditional access condition is not met, the user is presented with one of 
 -   If the device is not compliant, a message is displayed that directs the user to the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] web portal, or the company portal app where they can find information about the problem and how to remediate it.
 
 **For PCs:**
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
 
 -   If the conditional access policy requirement is to allow **domain joined** or **compliant**, a message with instructions about how to enroll the device is displayed. If the PC does not meet either of the requirements, the user will be asked to enroll the device with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].
 
@@ -186,7 +189,7 @@ The message is displayed on the device for Exchange Online users and tenants in 
     > 
     > Regardless of the compliance state, all users who are targeted by the policy will be required to enroll their devices with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].
 
-3.  Under **Device platforms**, you can choose to apply conditional access policy to:
+3.  Under **Outlook and other apps using modern authentication**, you can choose to apply conditional access policy to:
 
     -   **All platforms**
 
@@ -335,5 +338,4 @@ The following flow is used to decide which devices can access Exchange:
 ![](../Image/ConditionalAccess8-5.png)
 
 ## See Also
-[Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)
-
+[Manage access to email and O365 services](Manage-access-to-email-and-O365-services-with-Intune.md)

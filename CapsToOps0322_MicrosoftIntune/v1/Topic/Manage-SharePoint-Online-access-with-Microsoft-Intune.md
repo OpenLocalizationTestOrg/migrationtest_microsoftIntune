@@ -42,6 +42,10 @@ To connect to the required files, the device running OneDrive must:
 
     For domain joined PC, you must set it up to [automatically register](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-automatic-device-registration/) with Azure Active Directory.
 
+>[!IMPORTANT]
+>Conditional access for PCs is not currently available to all Intune customers. If you are already using conditional access for PCs, you do not need to take any action. You can continue to use it.
+If you have not created conditional access policies for PCs you will need to submit a request for access.  You can find out more information about known issues as well as how to get access to this feature at the [connect site](http://go.microsoft.com/fwlink/?LinkId=761472).
+
 -   Be compliant with any deployed [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] compliance policies
 
 The device state is stored in Azure Active Directory which grants or blocks access to the files, based on the conditions you specify.
@@ -104,10 +108,11 @@ Next, configure the policy to require that only managed and compliant devices ca
 #### <a name="bkmk_spopolicy"></a>
 
 1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Conditional Access** &gt; **SharePoint Online Policy**.
+![IntuneSASharePointOnlineCAPolicy](/Image/IntuneSASharePointOnlineCAPolicy.png)
 
 2.  Select **Enable conditional access policy for SharePoint Online.**.
 
-3.  Under **Device platforms**, you can choose to apply conditional access policy to:
+3.  Under **Application access**, you can choose to apply conditional access policy to:
 
     -   **All platforms**
 
@@ -153,5 +158,5 @@ Select any mobile device group and then, on the **Devices** tab, select one of t
 -   **Devices that are registered with AAD and compliant** – These devices can access SharePoint Online.
 
 ## See Also
-[Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)
+[Manage access to email and O365 services](Manage-access-to-email-and-O365-services-with-Intune.md)
 
