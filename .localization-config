@@ -1,7 +1,81 @@
 {
-  "locales": ["de-de"], 
-  "files": ["!/*.md", "**/**/*.md", "**/*.md", "**/TOC*.yml"],
-  "includeDependencies": true,
-  "autoPush": true,
-  "xliffVersion": "2.0"
+  "Locales": [
+    "ar-sa",
+    "cs-cz",
+    "da-dk",
+    "de-de",
+    "el-gr",
+    "es-es",
+    "fi-fi",
+    "fr-ca",
+    "fr-fr",
+    "he-il",
+    "hu-hu",
+    "it-it",
+    "ja-jp",
+    "ko-kr",
+    "nb-no",
+    "nl-nl",
+    "pl-pl",
+    "pt-br",
+    "pt-pt",
+    "ro-ro",
+    "ru-ru",
+    "sk-sk",
+    "sl-si",
+    "sv-se",
+    "tr-tr",
+    "zh-cn",
+    "zh-hk",
+    "zh-tw"
+  ],
+  "Files": null,
+  "Filters": [
+    {
+      "Metadata": null,
+      "Files": [
+        "**\\*.md"
+      ],
+      "Priorities": [
+        {
+          "Priority": "ht",
+          "Locales": [
+            "ar-sa",
+            "cs-cz",
+            "da-dk",
+            "de-de",
+            "el-gr",
+            "es-es",
+            "fi-fi",
+            "fr-ca",
+            "fr-fr",
+            "he-il",
+            "hu-hu",
+            "it-it",
+            "ja-jp",
+            "ko-kr",
+            "nb-no",
+            "nl-nl",
+            "pl-pl",
+            "pt-br",
+            "pt-pt",
+            "ro-ro",
+            "ru-ru",
+            "sk-sk",
+            "sl-si",
+            "sv-se",
+            "tr-tr",
+            "zh-cn",
+            "zh-hk",
+            "zh-tw"
+          ]
+        }
+      ],
+      "IncludeDependencies": null
+    }
+  ],
+  "IncludeDependencies": true,
+  "AutoPush": true,
+  "XliffVersion": "1.2",
+  "UseJavascriptMarkdownTransformer": true
 }
